@@ -1,7 +1,8 @@
-# segmentation-CelebAMask-HQ-SegNeXt
+# FaceParsing via SegNeXt
+
 ## Introducion
-The project provides SegNeXt trained by CelebAMask-HQ. <br>
-The results are as follows, which are much better than Bisenetv2.
+The project provides SegNeXt for face parsing, trained on the CelebAMask-HQ dataset. <br>
+The results are as follows, which are much better than previously widely-used BiSeNetv2.
 |Model|mIoU|mAcc|
 |-----|-----|-----|
 |SegNeXt|**79.83**|**86.63**|
