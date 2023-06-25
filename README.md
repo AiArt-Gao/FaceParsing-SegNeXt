@@ -36,7 +36,7 @@ The reults are as follows, which are much better than Bisenetv2:
   ```pip install -U openmim
      mim install mmcv-full==1.6.0
      pip install timm
-- Prepare project dependences
+- Prepare project dependences<br>
   ```pip install -r requirements.txt```
 ### Test
 - get train-best-pth from [Google Drive](https://drive.google.com/file/d/1rp5D48-1renqNCQ3LkJAYK5__QVFN_IV/view?usp=drive_link)
@@ -49,7 +49,7 @@ The reults are as follows, which are much better than Bisenetv2:
   If you want to use your own dataset, you need to write new config giving the proper form and path of your dataset. You can get the example of config file from
   mysegconfig.
 ### Train
-- get pretrain model from Google Drive.
+- get pretrain model from [Google Drive](https://drive.google.com/drive/folders/1nrq40tCG4dz1TCPhtPVCacIrYWy9rLBD?usp=drive_link).
 - run with one GPU
   `python tools/train.py ${CONFIG_FILE} [optional parameters]`
 ## Acknowledgments
