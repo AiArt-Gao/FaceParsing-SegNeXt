@@ -8,7 +8,7 @@
 ## Quick start
 ### Preparation
 - Clone this repo
-  ' git clone https://github.com/Beyondzjl/segmentation-CelebAMask-HQ-SegNeXt.git'
+  'git clone https://github.com/Beyondzjl/segmentation-CelebAMask-HQ-SegNeXt.git'
   'cd segmentation-CelebAMask-HQ-SegNeXt'
 - Download dataset CelebAMask-HQ
   I have divided the original dataset into following structure ：
