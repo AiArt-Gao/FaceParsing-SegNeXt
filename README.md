@@ -1,5 +1,11 @@
 # segmentation-CelebAMask-HQ-SegNeXt
 ## Introducion
+The project provide the SegNeXt model trained by CelebAMask-HQ. 
+The reults of trainning are as follows, which are much better than Bisenetv2:
+|Model|mIoU|mAcc|mFscore|
+|-----|-----|-----|-----|
+|SegNeXt|**78.58**|**84.85**|**86.11**|
+|Bisenetv2|59.79|69.67|73.43|
 ## Dataset
 ## Prerequisites
 - Linux
@@ -28,18 +34,18 @@
   |      |-labels
   ```
 - Prepare openmmlab dependences
-  `pip install -U openmim`
-  `mim install mmcv-full==1.6.0`
-  `pip install timm`
+  ```pip install -U openmim
+     mim install mmcv-full==1.6.0
+     pip install timm```
 - Prepare project dependences
   `pip install -r requirements.txt`
 ### Test
 - get train-best-pth from [Google Drive](https://drive.google.com/file/d/1rp5D48-1renqNCQ3LkJAYK5__QVFN_IV/view?usp=drive_link)
 - run
-  `python tools/test.py ${配置文件} ${检查点文件} [--out ${结果文件}] [--eval ${评估指标}] `
+  ```python tools/test.py ${配置文件} ${检查点文件} [--out ${结果文件}] [--eval ${评估指标}] ```
   For example
-  `python /xxx/segmentation-CelebAMask-HQ-SegNeXt/tools/test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/mysegconfig/segnext_CelebAMask_test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/iter_160000.pth --eval mIoU ## give you the evalution results`
-  `python /xxx/segmentation-CelebAMask-HQ-SegNeXt/tools/test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/mysegconfig/segnext_CelebAMask_test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/iter_160000.pth --show-dir <results_path>/xxx.png> --gpu-id 2 ## save the results to the path`
+  ```python /xxx/segmentation-CelebAMask-HQ-SegNeXt/tools/test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/mysegconfig/segnext_CelebAMask_test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/iter_160000.pth --eval mIoU ## give you the evalution results
+     python /xxx/segmentation-CelebAMask-HQ-SegNeXt/tools/test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/mysegconfig/segnext_CelebAMask_test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/iter_160000.pth --show-dir <results_path>/xxx.png> --gpu-id 2 ## save the results to the path```
 - tips
   If you want to use your own dataset, you need to write new config giving the proper form and path of your dataset. You can get the example of config file from
   mysegconfig.
