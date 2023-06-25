@@ -1,12 +1,11 @@
 # segmentation-CelebAMask-HQ-SegNeXt
 ## Introducion
-The project provide the SegNeXt model trained by CelebAMask-HQ. <br>
+The project provides the SegNeXt model trained by CelebAMask-HQ. <br>
 The reults of trainning are as follows, which are much better than Bisenetv2:
 |Model|mIoU|mAcc|mFscore|
 |-----|-----|-----|-----|
 |SegNeXt|**78.58**|**84.85**|**86.11**|
 |Bisenetv2|59.79|69.67|73.43|
-## Dataset
 ## Prerequisites
 - Linux
 - Python >=3.6
@@ -18,7 +17,7 @@ The reults of trainning are as follows, which are much better than Bisenetv2:
   git clone https://github.com/Beyondzjl/segmentation-CelebAMask-HQ-SegNeXt.git
   cd segmentation-CelebAMask-HQ-SegNeXt
   ```
-- Download dataset CelebAMask-HQ from Google Drive
+- Download dataset CelebAMask-HQ from [Google Drive](https://drive.google.com/drive/folders/170q_UvzbzWVDveKd2et2lzaqzTiybKlz?usp=drive_link)
   I have divided the original dataset into following structure ：
   ```
   CelebAMask-HQ
