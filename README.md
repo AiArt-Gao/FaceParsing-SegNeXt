@@ -17,7 +17,7 @@ The reults are as follows, which are much better than Bisenetv2:
   git clone https://github.com/Beyondzjl/segmentation-CelebAMask-HQ-SegNeXt.git
   cd segmentation-CelebAMask-HQ-SegNeXt
   ```
-- Download dataset CelebAMask-HQ from [Google Drive](https://drive.google.com/drive/folders/170q_UvzbzWVDveKd2et2lzaqzTiybKlz?usp=drive_link)
+- Download dataset CelebAMask-HQ from [Google Drive](https://drive.google.com/drive/folders/170q_UvzbzWVDveKd2et2lzaqzTiybKlz?usp=drive_link)<br>
   I have divided the original dataset into following structure ：
   ```
   CelebAMask-HQ
