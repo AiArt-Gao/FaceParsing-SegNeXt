@@ -7,7 +7,8 @@ The results are as follows, which are much better than Bisenetv2.
 |SegNeXt|**79.83**|**86.63**|
 |Bisenetv2|60.12|69.94|
 
-![image](https://github.com/Beyondzjl/segmentation-CelebAMask-HQ-SegNeXt/assets/84648701/2618b167-fa8b-43cc-80bc-1711869001ff)
+![image](https://github.com/Beyondzjl/segmentation-CelebAMask-HQ-SegNeXt/assets/84648701/e6941e87-9c4b-488e-a93d-693195cabc89)
+
 
 ## Prerequisites
 - Linux
