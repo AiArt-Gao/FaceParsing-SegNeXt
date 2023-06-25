@@ -35,9 +35,9 @@ The reults are as follows, which are much better than Bisenetv2:
 - Prepare openmmlab dependences
   ```pip install -U openmim
      mim install mmcv-full==1.6.0
-     pip install timm```
+     pip install timm
 - Prepare project dependences
-  `pip install -r requirements.txt`
+  ```pip install -r requirements.txt```
 ### Test
 - get train-best-pth from [Google Drive](https://drive.google.com/file/d/1rp5D48-1renqNCQ3LkJAYK5__QVFN_IV/view?usp=drive_link)
 - run
