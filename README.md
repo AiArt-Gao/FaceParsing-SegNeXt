@@ -1,7 +1,7 @@
 # segmentation-CelebAMask-HQ-SegNeXt
 ## Introducion
 The project provides SegNeXt trained by CelebAMask-HQ. <br>
-The reults are as follows, which are much better than Bisenetv2:
+The results are as follows, which are much better than Bisenetv2.
 |Model|mIoU|mAcc|
 |-----|-----|-----|
 |SegNeXt|**79.83**|**86.63**|
@@ -17,7 +17,7 @@ The reults are as follows, which are much better than Bisenetv2:
   git clone https://github.com/Beyondzjl/segmentation-CelebAMask-HQ-SegNeXt.git
   cd segmentation-CelebAMask-HQ-SegNeXt
   ```
-- Download dataset CelebAMask-HQ from [Google Drive].(https://drive.google.com/drive/folders/170q_UvzbzWVDveKd2et2lzaqzTiybKlz?usp=drive_link)<br>
+- Download dataset CelebAMask-HQ from [Google Drive](https://drive.google.com/drive/folders/170q_UvzbzWVDveKd2et2lzaqzTiybKlz?usp=drive_link).<br>
   I have divided the original dataset into following structure ：
   ```
   CelebAMask-HQ
@@ -39,7 +39,7 @@ The reults are as follows, which are much better than Bisenetv2:
 - Prepare project dependences<br>
     ```pip install -r requirements.txt```
 ### Test
-- Get train-best-pth from [Google Drive].(https://drive.google.com/file/d/1rp5D48-1renqNCQ3LkJAYK5__QVFN_IV/view?usp=drive_link)
+- Get train-best-pth from [Google Drive](https://drive.google.com/file/d/1rp5D48-1renqNCQ3LkJAYK5__QVFN_IV/view?usp=drive_link).
 - Run<br>
      `python tools/test.py ${配置文件} ${检查点文件} [--out ${结果文件}] [--eval ${评估指标}] `<br>
   For example:
@@ -55,6 +55,6 @@ The reults are as follows, which are much better than Bisenetv2:
 - Run with one GPU
   `python tools/train.py ${CONFIG_FILE} [optional parameters]`
 ## Acknowledgments
-The project is based on openmmlab. Thanks for the excellent work of [openmmlab](https://github.com/open-mmlab/mmsegmentation/tree/main)，[CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ) and [SegNeXt](https://github.com/Visual-Attention-Network/SegNeXt).
+The project is based on openmmlab. Thanks for the excellent work of [openmmlab](https://github.com/open-mmlab/mmsegmentation/tree/main),[CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ) and [SegNeXt](https://github.com/Visual-Attention-Network/SegNeXt).
   
 
