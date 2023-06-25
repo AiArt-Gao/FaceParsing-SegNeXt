@@ -10,9 +10,9 @@ The results are as follows, which are much better than previously widely-used Bi
 
 ![image](https://github.com/Beyondzjl/segmentation-CelebAMask-HQ-SegNeXt/assets/84648701/e6941e87-9c4b-488e-a93d-693195cabc89)
 
-## Contributers
+## Contributors
 - [Beyondzjl](https://github.com/Beyondzjl)
-- 
+- [fei-aiart](https://github.com/fei-aiart)
 
 ## Prerequisites
 - Linux
