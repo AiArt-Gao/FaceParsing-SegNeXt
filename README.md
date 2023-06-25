@@ -10,6 +10,9 @@ The results are as follows, which are much better than previously widely-used Bi
 
 ![image](https://github.com/Beyondzjl/segmentation-CelebAMask-HQ-SegNeXt/assets/84648701/e6941e87-9c4b-488e-a93d-693195cabc89)
 
+## Contributers
+- [Beyondzjl](https://github.com/Beyondzjl)
+- 
 
 ## Prerequisites
 - Linux
@@ -72,6 +75,6 @@ The results are as follows, which are much better than previously widely-used Bi
   python tools/train.py ${CONFIG_FILE} [optional parameters]
   ```
 ## Acknowledgments
-The project is based on OpenMMLab. Thanks for the excellent work of [OpenMMLab](https://github.com/open-mmlab/mmsegmentation/tree/main),[CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ) and [SegNeXt](https://github.com/Visual-Attention-Network/SegNeXt).
+The project is based on OpenMMLab. Thanks for the excellent work of [OpenMMLab](https://github.com/open-mmlab/mmsegmentation/tree/main), [CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ) and [SegNeXt](https://github.com/Visual-Attention-Network/SegNeXt).
   
 
