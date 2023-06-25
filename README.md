@@ -36,7 +36,7 @@ The results are as follows, which are much better than Bisenetv2.
   |      |-images
   |      |-labels
   ```
-- Prepare openmmlab dependences
+- Prepare OpenMMLab dependences
   ```
   pip install -U openmim
   mim install mmcv-full==1.6.0
@@ -71,6 +71,6 @@ The results are as follows, which are much better than Bisenetv2.
   python tools/train.py ${CONFIG_FILE} [optional parameters]
   ```
 ## Acknowledgments
-The project is based on openmmlab. Thanks for the excellent work of [openmmlab](https://github.com/open-mmlab/mmsegmentation/tree/main),[CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ) and [SegNeXt](https://github.com/Visual-Attention-Network/SegNeXt).
+The project is based on OpenMMLab. Thanks for the excellent work of [OpenMMLab](https://github.com/open-mmlab/mmsegmentation/tree/main),[CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ) and [SegNeXt](https://github.com/Visual-Attention-Network/SegNeXt).
   
 
