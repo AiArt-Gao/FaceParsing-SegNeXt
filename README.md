@@ -18,7 +18,7 @@ The results are as follows, which are much better than Bisenetv2.
   cd segmentation-CelebAMask-HQ-SegNeXt
   ```
 - Download dataset CelebAMask-HQ from [Google Drive](https://drive.google.com/drive/folders/170q_UvzbzWVDveKd2et2lzaqzTiybKlz?usp=drive_link).<br>
-  I have divided the original dataset into following structure ：
+  I have divided the original dataset into following structure.
   ```
   CelebAMask-HQ
   |
@@ -52,7 +52,7 @@ The results are as follows, which are much better than Bisenetv2.
   ## give you the evalution results
   
   python /xxx/segmentation-CelebAMask-HQ-SegNeXt/tools/test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/mysegconfig/segnext_CelebAMask_test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/iter_160000.pth --show-dir <results_path>/xxx.png> --gpu-id 2
-   ## save the results to the path
+   ## save results to the path
   ```
   
 - Tips<br>
