@@ -1,11 +1,11 @@
 # segmentation-CelebAMask-HQ-SegNeXt
 ## Introducion
-The project provides the SegNeXt model trained by CelebAMask-HQ. <br>
-The reults of trainning are as follows, which are much better than Bisenetv2:
-|Model|mIoU|mAcc|mFscore|
-|-----|-----|-----|-----|
-|SegNeXt|**78.58**|**84.85**|**86.11**|
-|Bisenetv2|59.79|69.67|73.43|
+The project provides SegNeXt trained by CelebAMask-HQ. <br>
+The reults are as follows, which are much better than Bisenetv2:
+|Model|mIoU|mAcc|
+|-----|-----|-----|
+|SegNeXt|**79.83**|**86.63**|
+|Bisenetv2|60.12|69.94|
 ## Prerequisites
 - Linux
 - Python >=3.6
