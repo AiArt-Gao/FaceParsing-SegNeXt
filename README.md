@@ -1,6 +1,6 @@
 # segmentation-CelebAMask-HQ-SegNeXt
 ## Introducion
-The project provide the SegNeXt model trained by CelebAMask-HQ. \n
+The project provide the SegNeXt model trained by CelebAMask-HQ. <br>
 The reults of trainning are as follows, which are much better than Bisenetv2:
 |Model|mIoU|mAcc|mFscore|
 |-----|-----|-----|-----|
