@@ -34,18 +34,20 @@ The results are as follows, which are much better than Bisenetv2.
   ```
 - Prepare openmmlab dependences
   ```
-    pip install -U openmim
-    mim install mmcv-full==1.6.0
-    pip install timm
+  pip install -U openmim
+  mim install mmcv-full==1.6.0
+  pip install timm
   ```
 - Prepare project dependences<br>
   ```
-    pip install -r requirements.txt
+  pip install -r requirements.txt
   ```
 ### Test
 - Get train-best-pth from [Google Drive](https://drive.google.com/file/d/1rp5D48-1renqNCQ3LkJAYK5__QVFN_IV/view?usp=drive_link).
 - Run<br>
-     `python tools/test.py ${配置文件} ${检查点文件} [--out ${结果文件}] [--eval ${评估指标}] `<br>
+  ```
+     python tools/test.py ${配置文件} ${检查点文件} [--out ${结果文件}] [--eval ${评估指标}]
+  ```
   For example:<br>
   ```
   python /xxx/segmentation-CelebAMask-HQ-SegNeXt/tools/test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/mysegconfig/segnext_CelebAMask_test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/iter_160000.pth --eval mIoU
