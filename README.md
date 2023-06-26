@@ -1,7 +1,7 @@
 # FaceParsing via SegNeXt
 
 ## Introducion
-本项目在 CelebAMask-HQ 训练了用于人脸解析的SegNext模型。在指标表现上远远优于之前常用的 Bisenetv2 模型。<br>
+本项目在 CelebAMask-HQ 训练了用于人脸解析的SegNeXt模型。在指标表现上远远优于之前常用的 Bisenetv2 模型。<br>
 依据下面的步骤可以方便的使用该模型，获得良好的人脸解析结果。<br>
 The project provides SegNeXt for face parsing, trained on the CelebAMask-HQ dataset. <br>
 The results are as follows, which are much better than previously widely-used BiSeNetv2.
