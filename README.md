@@ -54,7 +54,7 @@ The results are as follows, which are much better than previously widely-used Bi
   mim install mmcv-full==1.6.0
   pip install timm
   ```
-- Prepare project dependences<br>
+- Prepare project dependences
   ```
   pip install -r requirements.txt
   ```
