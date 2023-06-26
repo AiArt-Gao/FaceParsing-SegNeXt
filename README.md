@@ -1,7 +1,7 @@
 # FaceParsing via SegNeXt
 
 ## Introducion
-本项目在 CelebAMask-HQ 数据集上训练了用于人脸解析的SegNeXt模型。在指标表现上远远优于之前常用的 Bisenetv2 模型。<br>
+本项目在 CelebAMask-HQ 数据集上训练了用于人脸解析的SegNeXt模型。在指标表现上远远优于之前常用的 BiSeNetv2 模型。<br>
 依据下面的步骤可以方便的使用该模型，获得良好的人脸解析结果。<br>
 The project provides SegNeXt for face parsing, trained on the CelebAMask-HQ dataset. <br>
 The results are as follows, which are much better than previously widely-used BiSeNetv2.
@@ -9,12 +9,12 @@ The results are as follows, which are much better than previously widely-used Bi
 |Model|skin|nose|eye_g|l_eye|r_eye|l_brow|r_brow|l_ear|r_ear|**mouth**|**u_lip**|**l_lip**|**hair**|**hat**|**ear_r**|**neck_l**|**neck**|**cloth**|background|
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |**SegNeXt**|93.69|89.29|87.12|82.59|82.55|76.81|76.75|80.86|79.30|87.74|82.41|84.83|91.98|81.80|57.74|22.07|84.88|80.70|93.87|
-|Bisenetv2|92.79|88.40|83.51|34.72|33.13|35.91|25.45|43.11|4.26|83.26|78.30|82.06|90.58|74.23|46.40|0|82.04|71.81|92.15|
+|BiSeNetv2|92.79|88.40|83.51|34.72|33.13|35.91|25.45|43.11|4.26|83.26|78.30|82.06|90.58|74.23|46.40|0|82.04|71.81|92.15|
 ### mIou and mAcc of all classes
 |Model|**mIou**|**mAcc**|
 |-----|-----|-----|
 |**SegNeXt**|**79.83**|**86.63**|
-|Bisenetv2|**60.12**|**69.94**|
+|BiSeNetv2|**60.12**|**69.94**|
 
 ![image](https://github.com/Beyondzjl/segmentation-CelebAMask-HQ-SegNeXt/assets/84648701/e6941e87-9c4b-488e-a93d-693195cabc89)
 
