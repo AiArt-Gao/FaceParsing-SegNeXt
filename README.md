@@ -3,10 +3,10 @@
 ## Introducion
 The project provides SegNeXt for face parsing, trained on the CelebAMask-HQ dataset. <br>
 The results are as follows, which are much better than previously widely-used BiSeNetv2.
-|Model|mIoU|mAcc|
-|-----|-----|-----|
-|SegNeXt|**79.83**|**86.63**|
-|Bisenetv2|60.12|69.94|
+|Model|background|skin|nose|eye_g|l_eye|r_eye|l_brow|r_brow|l_ear|r_ear|mouth|u_lip|l_lip|hair|hat|ear_r|neck_l|neck|cloth|mIou|mAcc|
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|SegNeXt|93.87|93.69|89.29|87.12|82.59|82.55|76.81|76.75|80.86|79.30|87.74|82.41|84.83|91.98|81.80|57.74|22.07|84.88|80.70|**79.83**|**86.63**|
+|Bisenetv2|92.15|92.79|88.40|83.51|34.72|33.13|35.91|25.45|43.11|4.26|83.26|78.30|82.06|90.58|74.23|46.40|0|82.04|71.81|60.12|69.94|
 
 ![image](https://github.com/Beyondzjl/segmentation-CelebAMask-HQ-SegNeXt/assets/84648701/e6941e87-9c4b-488e-a93d-693195cabc89)
 
