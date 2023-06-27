@@ -15,7 +15,7 @@ The results are as follows, which are much better than previously widely-used Bi
 |-----|-----|-----|
 |**SegNeXt**|**79.83**|**86.63**|
 |BiSeNetv2|**60.12**|**69.94**|
-### Examples of results images with labels
+### Examples of result images with labels
 ![image](https://github.com/Beyondzjl/segmentation-CelebAMask-HQ-SegNeXt/assets/84648701/e6941e87-9c4b-488e-a93d-693195cabc89)
 
 ## Contributors
