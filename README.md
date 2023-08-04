@@ -62,6 +62,7 @@ The results are as follows, which are much better than previously widely-used Bi
 - Get train-weight from [Google Drive](https://drive.google.com/file/d/1rp5D48-1renqNCQ3LkJAYK5__QVFN_IV/view?usp=drive_link).
 - Run<br>
   ```
+  export PYTHONPATH="${PYTHONPATH}:/xxx/mmsegmentation-master" ##指示所有文件的搜索范围
   python tools/test.py ${配置文件} ${检查点文件} [--out ${结果文件}] [--eval ${评估指标}]
   ```
   For example:<br>
