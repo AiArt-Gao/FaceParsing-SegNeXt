@@ -69,7 +69,6 @@ The results are as follows, which are much better than previously widely-used Bi
   ```
   python /xxx/segmentation-CelebAMask-HQ-SegNeXt/tools/test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/mysegconfig/segnext_CelebAMask_test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/iter_160000.pth --eval mIoU
    ## give you the evalution results
-  
   python /xxx/segmentation-CelebAMask-HQ-SegNeXt/tools/test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/mysegconfig/segnext_CelebAMask_test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/iter_160000.pth --show-dir <results_path> --gpu-id x
    ## save results to the path（覆盖原图的结果）
   python /xxx/segmentation-CelebAMask-HQ-SegNeXt/tools/test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/mysegconfig/segnext_CelebAMask_test.py /xxx/segmentation-CelebAMask-HQ-SegNeXt/iter_160000.pth  --show-dir <results_path> --opacity 1
